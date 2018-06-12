@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content = "width=device-width, initial-scale = 1, user-scalable = no">
+    <title></title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/resume.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/fontsize.js"></script>
+</head>
+<body>
+     <!--简历modal框-->
+     <div class="modal_container" id="modal_container">
+       <div class="modal">
+          <p>发送邮件</p>
+           <span>邮箱:</span><input type="text" class="input-b">
+           <span style="display:block;font-size: 12px;color:red;text-indent: 55px;" id="corentMail"></span>
+           <div class="t-c">
+               <div class="modal_btn modal_btn_bg1">发送</div>
+               <div class="modal_btn modal_btn_bg2">取消</div>
+           </div>
+       </div>
+     </div>
+     <div class="wrap_content">
+         <div class="resume" id="resume">
+             <div class="resumeTitle">
+                 <h1>个人简历</h1>
+             </div>
+             <div class="information">
+                 <div class="title">
+                     <h2 class="name" id="name"></h2>
+                     <p class="sex"></p>
+                     <p class="address"></p>
+                     <p class="jobStartTime">工作起始时间：<label></label></p>
+                 </div>
+                 <div class="headPortrait">
+                     <img class="head" src="" alt="">
+                 </div>
+             </div>
+             <div class="jobIntension">
+                 <h3 class="jobTitle">求职意向</h3>
+                 <p class="jobNature">工作性质：<label></label></p>
+                 <p class="industry">期望行业：<label></label></p>
+                 <p class="targetWorkPlace">期望地区：<label></label></p>
+                 <p class="expectedSalary">期望薪资：<label></label></p>
+                 <p class="jobStatus">目前状况：<label></label></p>
+             </div>
+             <div class="selfEstimate">
+                 <h3 class="selfTitle">自我评价</h3>
+                 <p>
+                 </p>
+             </div>
+             <div class="education">
+                 <h3 class="educationTitle">教育情况</h3>
+                 <p class="graduateSchool"></p>
+             </div>
+             <div class="workExperience">
+                 <h3 class="workerTitle">工作经历</h3>
+                 <p></p>
+             </div>
+             <div class="projectExperience">
+                 <h3 class="projectTitle">项目经验</h3>
+                 <p></p>
+             </div>
+             <div class="language">
+                 <h3 class="languageTitle">语言/技能</h3>
+                 <p class="languageAbility">语言：<label></label></p>
+                 <p class="workSkills">技能：<label></label></p>
+             </div>
+
+         </div>
+         <div class="buttomfun">
+             <button class="print">打印</button>
+             <button class="sendoffer">发送</button>
+         </div>
+     </div>
+</body>
+<script type="text/javascript" src="js/resume.js"></script>
+</html>

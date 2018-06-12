@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>lieChang</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/fontsize.js"></script>
+        <script type="text/javascript" src="js/offer.js"></script>
+        <script type="text/javascript" src="js/jquery.qrcode.min.js"></script>
+        <script type="text/javascript" src="js/jquery-dateFormat.min.js"></script>
+    </head>
+    <style>
+        #wrap{
+            width: 100%;
+            height:auto;
+            position: relative;
+        }
+        img{
+            width:100%;
+        }
+    </style>
+    <body>
+        <div id="wrap">
+            <img src="image/indexBg.png" alt=""/>
+        </div>
+    </body>
+</html>
+<script type="application/javascript">
+    $(function(){
+        function getUrlParam(name) {
+            let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) return decodeURI(r[2]);
+        }
+        var actionID=getUrlParam("t").substring(2)
+        if(getUrlParam("t")==='1_'+actionID){
+            window.location.href="interview.html?interview="+actionID
+        }else if(getUrlParam("t")==='2_'+actionID){
+            window.location.href="resume.html?resume="+actionID
+        }else if(getUrlParam("t")==='3_'+actionID){
+            window.location.href="offer.html?offer="+actionID
+        }else if(getUrlParam("t")==='4_QRinfo'){
+            window.location.href="qrInfo.html"
+        }
+    })
+</script>

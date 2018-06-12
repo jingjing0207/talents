@@ -1,0 +1,80 @@
+.wrap{
+    width:100%;
+    height: 100%;
+    background:url("../image/interview_bg2.png") no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    padding-top: 0.4rem;
+    padding-bottom: 0.15rem;
+    position: relative;
+}
+.wrap h2{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+.H2Color{
+    color: #3fe2ff !important;
+    margin-right: 0.08rem;
+}
+.wrap h5{
+    text-align: center;
+    line-height: 0.5rem;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 9px;
+    letter-spacing: 0.04rem;
+}
+.wrap p{
+    text-align: center;
+    line-height: 0.6rem;
+    color: #ffffff;
+    font-size: 16px;
+    text-indent: 0.15rem;
+}
+.bg_kuohao{
+    background: url("../image/kuohao.png") center center no-repeat;
+}
+.kuohao_one{
+    background-size: 60% 80%;
+}
+.kuohao_two{
+    background-size: 60% 43%;
+}
+.containP span{
+    border-bottom:1px solid #ffffff;
+}
+.bottomCon{
+    width:100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+.interviewName{
+    padding:0 0.08rem;
+}
+.bottomCon p{
+    font-size: 12px;
+    text-align: center;
+}
+.bottomDiv{
+    width:100%;
+    height: 2.6rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+.innerDiv{
+    width:116px;
+    height: 116px;
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+.getSpan{
+    font-weight: bolder;
+}
+#qrOne{
+    width:100px;
+    height: 100px;
+}
